@@ -4,7 +4,14 @@ module.exports = {
   themeConfig: {
     sidebar: [
       '/',
-      '/first', ['/second', 'Oh cool!']
+      '/pages/nested-entity',
+      '/pages/db/pagination',
+      '/pages/db/rom',
+      // '/repository',
+      // '/second',
+      // '/misconceptions',
+      // '/orm-pagination',
+      '/pages/sidekiq'
     ]
   }
 }

@@ -3,7 +3,7 @@ title: Second page
 lang: en-US
 ---
 
-2
+
 ::: tip
 This is a tip
 :::

@@ -2,6 +2,6 @@
 home: true
 sidebar: auto
 actionText: Read more awesomeness →
-actionLink: /first.html
+actionLink: /pages/nested-entity.html
 ---
 
