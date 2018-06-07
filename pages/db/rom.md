@@ -1,5 +1,5 @@
 ---
-title: 'DB: Using ROM features'
+title: 'Using ROM features'
 lang: en-US
 sources: [
   'https://github.com/hanami/model/pull/444'

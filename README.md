@@ -1,7 +1,7 @@
 ---
 home: true
 sidebar: auto
-actionText: Read more 🌸 →
+actionText: Show me 🌸 receipts!
 actionLink: /pages/nested-entity.html
 ---
 
