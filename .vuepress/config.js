@@ -4,37 +4,38 @@ module.exports = {
   themeConfig: {
     sidebar: [
       '/',
-      '/pages/nested-entity',
+      '/pages/intro',
       {
         title: 'DB',
         collapsable: false,
         children: [
+          '/pages/db/entity',
           '/pages/db/pagination',
           '/pages/db/rom',
-          '/pages/db/entity',
+          '/pages/db/sequel',
         ]
       },
-
-      // '/repository',
-      // '/second',
-      // '/misconceptions',
-      // '/orm-pagination',
-      '/pages/sidekiq'
+      '/pages/dependencies',
+      '/pages/cache',
+      '/pages/sidekiq',
+      '/pages/misconceptions'
     ],
     nav: [
+      { text: 'About', link: 'about' },
       { text: 'Hanami', link: 'http://hanamirb.org/' },
-      {
-        text: 'Languages',
-        items: [
-          { text: 'English', link: '/' },
-          { text: 'Ukrainian', link: '/uk-UA' }
-        ]
-      }
+      // {
+      //   text: 'Languages',
+      //   items: [
+      //     { text: 'English', link: '/' },
+      //     { text: 'Ukrainian', link: '/uk-UA' }
+      //   ]
+      // }
     ],
     lastUpdated: 'Last Updated',
     repo: 'iJackUA/hanami-cookbook',
     editLinks: true,
-    editLinkText: 'Help us improve this receipt!',
+    editLinkText: 'Edit this page (help us to improve it!)',
+    ga: 'UA-120541194-1',
     algolia: {
       apiKey: 'e2af62df119e15ab1ca2a432805d43c1',
       indexName: 'hanami_cookbook'

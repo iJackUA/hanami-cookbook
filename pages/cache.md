@@ -1,17 +1,20 @@
 ---
-title: 'Cache: Redis'
+title: 'Cache'
 lang: en-US
 sources: [
 ]
 ---
 
+## Cache implementation
 Use [**readthis**](https://github.com/sorentwo/readthis) gem as a Cache implemetation.
 
-# Direct Redis access
+https://github.com/sorentwo/readthis/blob/master/lib/readthis/cache.rb
+
+## Direct Redis access
 
 "Readthis" gem [supports running arbitraty Redis commands](https://github.com/sorentwo/readthis#running-arbitrary-redis-commands)
 
-# Cache Repositories
+## Cache Repositories
 
 ```ruby
 class CacheRepository
