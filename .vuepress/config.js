@@ -1,6 +1,6 @@
 module.exports = {
   title: '🌸 iJackUA\'s Hanami Cookbook',
-  description: 'Receipts from real projects',
+  description: 'Receipts from real Hanami projects',
   themeConfig: {
     sidebar: [
       '/',
@@ -38,7 +38,15 @@ module.exports = {
     ga: 'UA-120541194-1',
     algolia: {
       apiKey: 'd83390aab06391dde571b6e39e12d507',
-      indexName: 'hanami'
+      indexName: 'hanami',
+      autocompleteOptions: {
+        // See https://github.com/algolia/autocomplete.js#options
+        openOnFocus: true,
+        debug: false
+      },
+      algoliaOptions: {
+        hitsPerPage: 10
+      }
     }
   }
 }
