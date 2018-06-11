@@ -37,8 +37,8 @@ module.exports = {
     editLinkText: 'Edit this page (help us to improve it!)',
     ga: 'UA-120541194-1',
     algolia: {
-      apiKey: 'e2af62df119e15ab1ca2a432805d43c1',
-      indexName: 'hanami_cookbook'
+      apiKey: 'd83390aab06391dde571b6e39e12d507',
+      indexName: 'hanami'
     }
   }
 }
