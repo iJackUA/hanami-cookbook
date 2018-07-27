@@ -7,7 +7,7 @@ sources: [
 ]
 ---
 
-::: info
+::: tip
 Enums are useful to handle types of entites. To store in DB a "magic number" like `0` or `1`, but in application code to use some readable notation like `:image_type`
 :::
 

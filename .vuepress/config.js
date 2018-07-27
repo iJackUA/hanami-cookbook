@@ -12,6 +12,7 @@ module.exports = {
           '/pages/db/entity',
           '/pages/db/pagination',
           '/pages/db/soft_delete',
+          '/pages/db/enum',
           '/pages/db/rom',
           '/pages/db/sequel',
         ]

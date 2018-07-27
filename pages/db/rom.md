@@ -14,7 +14,7 @@ Not all ROM.rb features supported! `Hanami::Repository` class hides and cut-out 
 Also Hanami 1.2 depends on ROM 3.0 (while current version is 4.0) - be carefull reading ROM docs, pay attention to version!
 :::
 
-# Association modifiers
+## Association modifiers
 
 ```ruby {3,7}
 class PostRepository < Hanami::Repository
@@ -28,7 +28,7 @@ class PostRepository < Hanami::Repository
 end
 ```
 
-# Nested aggregation
+## Nested aggregation
 
 ```ruby {4}
 class UserRepository < Hanami::Repository
@@ -51,7 +51,7 @@ class PostRepository < Hanami::Repository
 end
 ```
 
-# Raw SQL command
+## Raw SQL command
 
 Imagine we need to do a very complicated and DB specific query.
 Our `posts` table has jsonb `tags` column and we want to find all tags by query. 
