@@ -1,6 +1,7 @@
 ---
 title: 'Cache'
 lang: en-US
+hanami_ver: ['1.2']
 sources: [
 ]
 ---
@@ -10,10 +11,13 @@ Use [**readthis**](https://github.com/sorentwo/readthis) gem as a Cache implemet
 
 https://github.com/sorentwo/readthis/blob/master/lib/readthis/cache.rb
 
-## Direct Redis access
+## Call raw Redis commands
 
 "Readthis" gem [supports running arbitraty Redis commands](https://github.com/sorentwo/readthis#running-arbitrary-redis-commands)
 
+```ruby
+#TODO code example
+```
 ## Cache Repositories
 
 ```ruby

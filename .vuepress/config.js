@@ -11,6 +11,7 @@ module.exports = {
         children: [
           '/pages/db/entity',
           '/pages/db/pagination',
+          '/pages/db/soft_delete',
           '/pages/db/rom',
           '/pages/db/sequel',
         ]
@@ -18,6 +19,7 @@ module.exports = {
       '/pages/dependencies',
       '/pages/cache',
       '/pages/sidekiq',
+      '/pages/mailing',
       '/pages/misconceptions'
     ],
     nav: [

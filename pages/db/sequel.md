@@ -1,6 +1,7 @@
 ---
-title: 'Sequel'
+title: 'Sequel features'
 lang: en-US
+hanami_ver: ['1.2']
 sources: [
   
 ]
@@ -8,7 +9,8 @@ sources: [
 
 ## Migration. Data type specification
 
-http://sequel.jeremyevans.net/rdoc/files/doc/schema_modification_rdoc.html
+Hanami Migrations uses almost pure Sequel notation and we can reuse [Sequel data types notation](
+http://sequel.jeremyevans.net/rdoc/files/doc/schema_modification_rdoc.html)
 
 ```ruby
 create_table(:columns_types) do  # database type used
@@ -23,12 +25,12 @@ end
 
 ## Database connection tuning
 
-You can pass DB connection options (like [these](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server)) via connection URL
+Pass DB connection options (like [these](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server)) via connection URL
 
 ```bash
 postgres://localhost/?max_connections=16
 ```
 
-## Timezones conversion
+## Automatic Timezones conversion
 
-Investigate options from [http://sequel.jeremyevans.net/rdoc/classes/Sequel/Timezones.html](http://sequel.jeremyevans.net/rdoc/classes/Sequel/Timezones.html)
+TODO: Investigate options from [http://sequel.jeremyevans.net/rdoc/classes/Sequel/Timezones.html](http://sequel.jeremyevans.net/rdoc/classes/Sequel/Timezones.html)

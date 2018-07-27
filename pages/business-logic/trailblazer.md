@@ -1,9 +1,8 @@
 ---
-title: 'Interactors'
+title: 'Trailblazer'
 lang: en-US
 hanami_ver: ['1.2']
 sources: [
 ]
 ---
 
-TODO: Examples of interactor
