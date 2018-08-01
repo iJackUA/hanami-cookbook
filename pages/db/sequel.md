@@ -25,7 +25,7 @@ end
 
 ## Database connection tuning
 
-Pass DB connection options (like [these](https://wiki.postgresql.org/wiki/Tuning_Your_PostgreSQL_Server)) via connection URL
+Pass DB connection options (like [these](https://sequel.jeremyevans.net/rdoc/files/doc/opening_databases_rdoc.html)) via connection URL
 
 ```bash
 postgres://localhost/?max_connections=16
