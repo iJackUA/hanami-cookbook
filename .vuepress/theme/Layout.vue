@@ -1,5 +1,9 @@
 <template>
     <Layout>
+      <template slot="page-top">
+         <h2>Custom header</h2>
+      </template>
+
       <template slot="page-bottom">
 
          <h2>Sources: </h2>
@@ -15,7 +19,7 @@
 </template>
 
 <script>
-import Layout from 'vuepress/lib/default-theme/Layout'
+import Layout from '@default-theme/Layout.vue'
 export default {
   components: { Layout }
 }
