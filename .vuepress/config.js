@@ -1,6 +1,7 @@
 module.exports = {
   title: '🌸 iJackUA\'s Hanami Cookbook',
   description: 'Receipts from real Hanami projects',
+  ga: 'UA-120541194-1',
   themeConfig: {
     sidebar: [
       '/',
@@ -38,7 +39,6 @@ module.exports = {
     repo: 'iJackUA/hanami-cookbook',
     editLinks: true,
     editLinkText: 'Edit this page (help us to improve it!)',
-    ga: 'UA-120541194-1',
     algolia: {
       apiKey: 'd83390aab06391dde571b6e39e12d507',
       indexName: 'hanami',
