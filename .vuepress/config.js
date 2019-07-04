@@ -1,11 +1,15 @@
 module.exports = {
-  title: '🌸 iJackUA\'s Hanami Cookbook',
-  description: 'Receipts from real Hanami projects',
+  title: 'iJackUA\'s 🌸 Hanami Cookbook',
+  description: 'Receipts for real Hanami projects',
   ga: 'UA-120541194-1',
   themeConfig: {
+    serviceWorker: {
+      updatePopup: true,
+    },
     sidebar: [
       '/',
       '/pages/intro',
+      '/pages/docker',
       {
         title: 'DB',
         collapsable: false,
@@ -51,5 +55,8 @@ module.exports = {
         hitsPerPage: 10
       }
     }
+  },
+  markdown: {
+    lineNumbers: true
   }
 }
