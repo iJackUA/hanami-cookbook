@@ -1,7 +1,7 @@
 <template>
   <ParentLayout>
       <div class="sources page-nav" slot="page-bottom"
-      v-if="$page.frontmatter.sources.length > 0">
+      v-if="$page.frontmatter.sources && $page.frontmatter.sources.length > 0">
         <h3>Sources:</h3>
         <ul>
           <li v-for="source in $page.frontmatter.sources">

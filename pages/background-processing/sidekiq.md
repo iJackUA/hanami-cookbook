@@ -7,6 +7,8 @@ sources: [
 ]
 ---
 
+## Sidekiq
+
 `Gemfile`
 ```ruby
   gem 'sidekiq'

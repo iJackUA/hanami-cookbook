@@ -22,9 +22,16 @@ module.exports = {
           '/pages/db/sequel',
         ]
       },
+      {
+        title: 'Background processing',
+        collapsable: false,
+        children: [
+          '/pages/background-processing/sidekiq',
+          '/pages/background-processing/rabbitmq',
+        ]
+      },
       '/pages/dependencies',
       '/pages/cache',
-      '/pages/sidekiq',
       '/pages/mailing',
       '/pages/misconceptions'
     ],
