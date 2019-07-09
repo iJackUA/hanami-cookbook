@@ -21,3 +21,8 @@ You can send me tips via crypto
 * Litecoin LTC `Lf865GW5MxJqMkeb5AB56PQk93ks2NjVKG`
 * Tether USDT `TFLgwydRnSNWip5FnJKyTQrUJxvb9fgt2g`
 * Want to send other currency? [Just let me know here :)](https://github.com/iJackUA/hanami-cookbook/issues)
+
+## License
+
+Hanami Cookbook is under [https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/
+)

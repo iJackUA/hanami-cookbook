@@ -21,6 +21,10 @@ they provide enough information to grasp basic concepts
 * avoid issues already faced by others
 * create a source of technological inspiration
 
+::: danger The cookbook is under construction
+A lot of recipes are empty yet. Information for them exists, but it should be carefully extracted. This process takes time, so be patient, please.
+:::
+
 ## Why things are so complicated?
 
 They are not complicated! It is just the first impression, based on false belief circulating in the Ruby community.

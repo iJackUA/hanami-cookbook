@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'iJackUA\'s 🌸 Hanami Cookbook',
+  title: '🌸 Hanami Cookbook',
   description: 'Recipes for real Hanami projects',
   themeConfig: {
     serviceWorker: {
@@ -61,7 +61,7 @@ module.exports = {
       '/pages/misconceptions'
     ],
     nav: [
-      { text: 'About', link: 'about' },
+      { text: 'About', link: '/pages/about' },
       { text: 'Hanami', link: 'http://hanamirb.org/' },
       { text: 'Guides', link: 'https://guides.hanamirb.org/' },
       // {
