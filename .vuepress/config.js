@@ -1,15 +1,14 @@
 module.exports = {
   title: 'iJackUA\'s 🌸 Hanami Cookbook',
-  description: 'Receipts for real Hanami projects',
-  ga: 'UA-120541194-1',
+  description: 'Recipes for real Hanami projects',
   themeConfig: {
     serviceWorker: {
       updatePopup: true,
     },
     sidebar: [
-      '/',
-      '/pages/intro',
+      '/pages/getting-started',
       '/pages/docker',
+      '/pages/dependencies',
       {
         title: 'DB',
         collapsable: false,
@@ -23,6 +22,31 @@ module.exports = {
         ]
       },
       {
+        title: 'Business logic',
+        collapsable: false,
+        children: [
+          '/pages/business-logic/overview',
+          '/pages/business-logic/interactors',
+          '/pages/business-logic/trailblazer'
+        ]
+      },
+      {
+        title: 'Building APIs',
+        collapsable: false,
+        children: [
+          '/pages/api/rest.md',
+          '/pages/api/graphql.md'
+        ]
+      },
+      {
+        title: 'Access Control',
+        collapsable: false,
+        children: [
+          '/pages/access-control/authentication.md',
+          '/pages/access-control/authorization.md'
+        ]
+      },
+      {
         title: 'Background processing',
         collapsable: false,
         children: [
@@ -30,7 +54,8 @@ module.exports = {
           '/pages/background-processing/rabbitmq',
         ]
       },
-      '/pages/dependencies',
+      '/pages/webpack',
+      '/pages/websockets',
       '/pages/cache',
       '/pages/mailing',
       '/pages/misconceptions'
@@ -38,6 +63,7 @@ module.exports = {
     nav: [
       { text: 'About', link: 'about' },
       { text: 'Hanami', link: 'http://hanamirb.org/' },
+      { text: 'Guides', link: 'https://guides.hanamirb.org/' },
       // {
       //   text: 'Languages',
       //   items: [
@@ -65,5 +91,16 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  plugins: [
+    ['@vuepress/google-analytics', {
+      ga: 'UA-120541194-1'
+    }],
+    ['@vuepress/active-header-links', {
+      sidebarLinkSelector: '.sidebar-link',
+      headerAnchorSelector: '.header-anchor',
+      headerTopOffset: 120
+    }],
+    ['@vuepress/back-to-top']
+  ]
 }

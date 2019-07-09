@@ -7,6 +7,18 @@ sources: [
 ]
 ---
 
+::: tip Docker is not required for Hanami itself or any recipe
+This cookbook is full of examples running Hanami and different auxiliary software inside Docker.
+
+I want to emphasize, that if you are not experienced with Docker, please don't be afraid. All recipes would contain plain commands to run on plain Linux machine (I am not sure everything works with Windows or plain OSX).
+
+But running everything inside Docker even for local development purposes brings you reproducibility and environment independence. Also recipes can avoid getting very deep in software prerequisites and setup.
+:::
+
+::: danger For local dev usage only!
+Any of these Docker setup recipes are **NOT proven or validated to be safe** for Production server usage.
+:::
+
 ## Basic Docker-ization
 
 Prerequisites:
