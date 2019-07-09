@@ -8,6 +8,8 @@ sources: [
 ]
 ---
 
+# ROM.rb features
+
 ::: danger
 Not all ROM.rb features supported! `Hanami::Repository` class hides and cut-out a lot of things like chnagesets, commands etc.
 
@@ -54,7 +56,7 @@ end
 ## Raw SQL command
 
 Imagine we need to do a very complicated and DB specific query.
-Our `posts` table has jsonb `tags` column and we want to find all tags by query. 
+Our `posts` table has jsonb `tags` column and we want to find all tags by query.
 
 ```ruby{3}
 class PostRepository < Hanami::Repository
@@ -65,7 +67,7 @@ class PostRepository < Hanami::Repository
 end
 ```
 
-We need to call `read` methos on a relation (`posts` in this case) and pass SQL string. 
+We need to call `read` methos on a relation (`posts` in this case) and pass SQL string.
 
 **The good thing** - query composition is still supported (via `.limit(5)` etc.)
 
