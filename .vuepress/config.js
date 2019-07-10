@@ -111,6 +111,13 @@ module.exports = {
       headerAnchorSelector: '.header-anchor',
       headerTopOffset: 120
     }],
-    ['@vuepress/back-to-top']
+    ['@vuepress/back-to-top'],
+    [ 'autometa', {
+      site: {
+        name   : 'Hanami Cookbook',
+        twitter: 'iJackUA',
+      },
+      canonical_base: 'https://hanami-cookbook.stdout.in',
+    }]
   ]
 }
