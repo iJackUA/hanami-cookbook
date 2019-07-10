@@ -10,15 +10,25 @@ module.exports = {
       '/pages/docker',
       '/pages/dependencies',
       {
-        title: 'DB',
+        title: 'Entity / Repository',
         collapsable: false,
         children: [
-          '/pages/db/entity',
-          '/pages/db/pagination',
-          '/pages/db/soft_delete',
-          '/pages/db/enum',
-          '/pages/db/rom',
-          '/pages/db/sequel',
+          '/pages/entity-repo/entity',
+          '/pages/entity-repo/pagination',
+          '/pages/entity-repo/soft_delete',
+          '/pages/entity-repo/enum',
+          '/pages/entity-repo/rom',
+          '/pages/entity-repo/sequel',
+        ]
+      },
+      {
+        title: 'Databases',
+        collapsable: false,
+        children: [
+          '/pages/databases/sequel',
+          '/pages/databases/cassandra',
+          '/pages/databases/janusgraph',
+          '/pages/databases/influxdb',
         ]
       },
       {
