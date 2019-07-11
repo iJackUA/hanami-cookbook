@@ -1,11 +1,12 @@
 ---
 title: 'Dependencies'
 lang: en-US
-hanami_ver: ['1.2']
 sources: [
 
 ]
 ---
+
+# Dependencies <Badge text="Hanami: 1.x"/>
 
 ## Dry Container + AutoInject
 

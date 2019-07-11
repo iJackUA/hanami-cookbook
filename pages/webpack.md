@@ -1,7 +1,8 @@
 ---
 title: 'WebPack'
 lang: en-US
-hanami_ver: ['1.2']
 sources: [
 ]
 ---
+
+# {{ $page.title }} <Badge text="Hanami: 1.x"/>

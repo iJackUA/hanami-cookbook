@@ -1,7 +1,6 @@
 ---
 title: 'Paginaton'
 lang: en-US
-hanami_ver: ['1.2']
 sources: [
   'http://katafrakt.me/2018/06/01/integrating-pagy-with-hanami/'
 ]

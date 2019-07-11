@@ -1,11 +1,12 @@
 ---
 title: Docker
 lang: en-US
-hanami_ver: ['1.2']
 sources: [
 
 ]
 ---
+
+# {{ $page.title }} <Badge text="Hanami: 1.x"/>
 
 ::: tip Docker is not required for Hanami itself or any recipe
 This cookbook is full of examples running Hanami and different auxiliary software inside Docker.

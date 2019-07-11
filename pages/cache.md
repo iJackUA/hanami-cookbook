@@ -1,7 +1,6 @@
 ---
 title: 'Cache'
 lang: en-US
-hanami_ver: ['1.2']
 sources: [
 ]
 ---
@@ -42,6 +41,6 @@ class PostCacheRepository < CacheRepository
   end
 
   ...
-  
+
 end
 ```

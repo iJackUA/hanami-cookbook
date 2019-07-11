@@ -44,16 +44,16 @@ module.exports = {
         title: 'Building APIs',
         collapsable: false,
         children: [
-          '/pages/api/rest.md',
-          '/pages/api/graphql.md'
+          '/pages/api/rest',
+          '/pages/api/graphql'
         ]
       },
       {
         title: 'Access Control',
         collapsable: false,
         children: [
-          '/pages/access-control/authentication.md',
-          '/pages/access-control/authorization.md'
+          '/pages/access-control/authentication',
+          '/pages/access-control/authorization'
         ]
       },
       {

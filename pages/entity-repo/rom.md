@@ -1,7 +1,6 @@
 ---
 title: 'ROM.rb features'
 lang: en-US
-hanami_ver: ['1.2']
 sources: [
   'https://github.com/hanami/model/pull/444',
   'https://github.com/hanami/model/issues/477'

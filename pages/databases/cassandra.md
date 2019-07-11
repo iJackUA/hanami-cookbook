@@ -1,6 +1,7 @@
 ---
 title: 'Cassandra'
 lang: en-US
-hanami_ver: ['1.2']
 sources:
 ---
+
+# Databases > Cassandra <Badge text="Hanami: 1.x"/>

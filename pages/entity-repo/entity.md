@@ -1,7 +1,6 @@
 ---
 title: 'Entity'
 lang: en-US
-hanami_ver: ['1.2']
 sources: [
   'https://github.com/hanami/model/pull/457',
   'https://stackoverflow.com/questions/49142802/how-to-update-only-changed-attributes-in-hanami-model/50157021#50157021'
@@ -10,7 +9,7 @@ sources: [
 
 ## Nested Entity
 
-When you specify associations in Repository it automatically defines attribute of an Entity type in corresponding Entity. In case of custom attributes definition you should do it manually 
+When you specify associations in Repository it automatically defines attribute of an Entity type in corresponding Entity. In case of custom attributes definition you should do it manually
 
 ```ruby {4}
 class Account < Hanami::Entity
@@ -45,7 +44,7 @@ here for example we prepare JSON data from DB to be passed into construtor of th
 module Hanami::Entity::Types
   def self.JSONBEntity(class_const)
     fn = -> attrs { class_const.new(::Hanami::Utils::Hash.deep_symbolize(attrs)) }
-    ::Dry::Types::Constructor.new(class_const, &fn) 
+    ::Dry::Types::Constructor.new(class_const, &fn)
   end
 end
 ```

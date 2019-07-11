@@ -1,7 +1,6 @@
 ---
 title: 'Sequel features'
 lang: en-US
-hanami_ver: ['1.2']
 sources: [
   'https://discourse.hanamirb.org/t/possible-to-use-a-sequel-plugin-in-hanami/492'
 ]
