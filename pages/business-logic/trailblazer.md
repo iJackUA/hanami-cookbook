@@ -5,7 +5,7 @@ sources: [
 ]
 ---
 
-## Trailblazer
+# {{ $page.title }} <Badge text="Hanami: 1.x"/>
 
 `Gemfile`
 ```ruby
