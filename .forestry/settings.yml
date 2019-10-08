@@ -5,6 +5,11 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: directory
+  path: ".vuepress"
+  label: Vuepress Config
+  create: none
+  match: config.js
+- type: directory
   path: pages
   label: Pages
   create: all
