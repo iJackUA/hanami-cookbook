@@ -4,14 +4,15 @@ auto_deploy: false
 admin_path: "/admin/"
 webhook_url: 
 sections:
-- type: document
-  path: ".vuepress/config.js"
-  label: Vuepress Config
 - type: directory
   path: pages
   label: Pages
   create: all
   match: "**/*"
+- type: document
+  path: ".vuepress/config.js"
+  label: Vuepress Config
+  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
