@@ -5,6 +5,11 @@ admin_path: "/admin/"
 webhook_url: 
 sections:
 - type: directory
+  path: ".vuepress"
+  label: ".vuepress"
+  create: all
+  match: "**/*"
+- type: directory
   path: pages
   label: Pages
   create: all
@@ -12,7 +17,6 @@ sections:
 - type: document
   path: ".vuepress/config.js"
   label: Vuepress Config
-  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
