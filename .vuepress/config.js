@@ -8,6 +8,13 @@ module.exports = {
     sidebar: [
       '/pages/getting-started',
       '/pages/docker',
+      {
+        title: 'Dev Setup',
+        collapsable: false,
+        children: [
+          '/pages/dev-setup/guard-reload'
+        ]
+      },
       '/pages/dependencies',
       {
         title: 'Entity / Repository',
