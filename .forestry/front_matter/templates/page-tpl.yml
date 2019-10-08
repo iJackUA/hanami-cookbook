@@ -1,0 +1,13 @@
+---
+label: Page tpl
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: lang
+  label: lang
+- type: list
+  name: sources
+  label: sources
