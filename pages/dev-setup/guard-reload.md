@@ -14,10 +14,17 @@ Using [https://github.com/hanami/reloader](https://github.com/hanami/reloader)
 # find and remove Shotgun
 # gem 'shotgun'
 # ...
-group :plugins do
-  gem "hanami-reloader", "0.2.1"
+if ENV['HANAMI_ENV'].eql?('development')
+  group :plugins do
+    gem "hanami-reloader", "0.2.1"
+  end
 end
+
 ```
+
+Small hack with 'development' env check required to skip reloading in production.
+Hanami 2 has correct `hanami-reloader` that respect env.
+
 
 ## Generate Guard config
 
