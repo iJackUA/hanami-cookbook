@@ -56,6 +56,7 @@ One of the biggest challenges is when you are searching for "act-as-something"/"
 * [**radar/twist-v2**](https://github.com/radar/twist-v2)
 * [**davydovanton/cookie_box**](https://github.com/davydovanton/cookie_box)
 * [**davydovanton/rubyjobs.dev**](https://github.com/davydovanton/rubyjobs.dev)
+* [**AlexanderMint/upment-hanami**](https://github.com/AlexanderMint/upment-hanami) (GraphQL usage example)
 * List of projects on [**davydovanton/awesome-hanami**](https://github.com/davydovanton/awesome-hanami#hanami-project-list)
 
 ## Want to learn more?
