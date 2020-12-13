@@ -76,7 +76,7 @@ module Web
 end
 ```
 
-* Create `ApplicaionChannel`
+* Create `ApplicationChannel`
 
 `apps/web/sockets/application_channel.rb`
 ```ruby
@@ -88,7 +88,7 @@ module Web
 end
 ```
 
-* Implementa yor own Channels like
+* Implement your own Channels like
 
 ```ruby{4,11}
 module Web
