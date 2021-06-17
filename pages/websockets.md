@@ -15,7 +15,7 @@ gem 'anycable'
 gem 'litecable'
 ```
 
-AnyCable server should be installed separately [(anycable-go or erlycable, but anycable-go is supposed for convenience)](https://docs.anycable.io/#/websocket_servers).
+AnyCable server should be installed separately [(anycable-go or erlycable, but anycable-go is assumed for convenience)](https://docs.anycable.io/#/websocket_servers).
 
 Two processes should be started (via Foreman or Docker)
 * `anycable-go`
@@ -88,7 +88,7 @@ module Web
 end
 ```
 
-* Implementa yor own Channels like
+* Implement your own Channels
 
 ```ruby{4,11}
 module Web
@@ -123,8 +123,8 @@ LiteCable.broadcast("comments:post:#{post.uuid}", message)
 ## Connect via JavaScript
 
 * [Install `actioncable` package via NPM](https://www.npmjs.com/package/actioncable) (or download as compiled file).
-* Connect to `ws://domain.com/ws?jwt_token=...` via `ActionCable.createConsumer` (`jwt_token` important only for this example, ot identify User, cookie could be used "transparently", read AnyCable docs about Headers pass)
-* All other operations are identical to ActionCable, with small differences that [covered by AnyCable docs](https://docs.anycable.io/#/ruby/compatibility)
+* Connect to `ws://domain.com/ws?jwt_token=...` via `ActionCable.createConsumer` (`jwt_token` important only for this example, to identify User, cookie could be used "transparently", read AnyCable docs about Headers pass)
+* All other operations are identical to ActionCable, with small differences that are [covered by AnyCable docs](https://docs.anycable.io/#/ruby/compatibility)
 
 ## AnyCable with Docker
 `.env`
