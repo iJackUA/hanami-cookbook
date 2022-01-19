@@ -126,6 +126,9 @@ module.exports = {
         twitter: 'iJackUA',
       },
       canonical_base: 'https://hanami-cookbook.stdout.in',
-    }]
+    }],
+    [ 'sitemap', {
+      hostname: 'https://hanami-cookbook.stdout.in'
+    }],
   ]
 }
