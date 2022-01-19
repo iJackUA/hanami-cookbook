@@ -94,7 +94,8 @@ module.exports = {
     editLinks: true,
     editLinkText: 'Edit this page (help us to improve it!)',
     algolia: {
-      apiKey: 'd83390aab06391dde571b6e39e12d507',
+      appId: 'U67XV4TH7G',
+      apiKey: '415eaa8107b34d6252bf29674435b45b',
       indexName: 'hanami',
       autocompleteOptions: {
         // See https://github.com/algolia/autocomplete.js#options
